@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
-}
+.wrapper{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    background-color: #ebecee00;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  
+  .card{
+  
+    width: 400px;
+    background-color: #001334;
+    color: #fff;
+  
   }
-  to {
-    transform: rotate(360deg);
+  
+  .about{
+  
+    padding: 10px;
+    color: #fff;
   }
-}
+  
+  .about small{
+  
+    font-size: 10px;
+  }
+  
+  hr{
+  
+    color: #fff;
+    margin-top: 0px;
+  }
+  
+  
+  .steam{
+    margin-top: -5px;
+  }
+  
+  
+  
+  .seller{
+        margin-top: -6px;
+        font-size: 14px;
+  }
+  
+  
+  .steam-price{
+  
+        margin-right: 115px !important;
+  }
+  
+  .margin{
+        margin-top: -6px;
+      color: #6c757d !important;
+      font-size: 13px;
+  }
+  
+  .response div{
+  
+    margin-right: 10px;
+  }
+  
+  .fa-check-circle{
+    color: #1775e5;
+  }
+  
+  
+  .fa-thumbs-up{
+        color: #79d254;
+  }
+  
+  
+  
+  .fa-thumbs-down{
+      color: #e05a59;
+  }
+  
+  
+  .cart{
+    height: 50px;
+  }
