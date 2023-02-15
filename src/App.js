@@ -42,7 +42,7 @@ import './App.css'
     <div className="d-flex justify-content-between align-items-center p-2">
 
         <div className="d-flex flex-row align-items-center">
-            <img src="https://img.icons8.com/fluent/96/000000/user-male-circle.png" width="40" />
+            <img src="https://img.icons8.com/fluent/96/000000/user-male-circle.png" alt="image" width="40" />
             <div className="d-flex flex-column ml-2">
                 <span>sjored212</span>
                 <small className="text-muted seller">seller</small>
@@ -144,7 +144,7 @@ let card2 = <div className="wrapper">
     <div className="d-flex justify-content-between align-items-center p-2">
 
         <div className="d-flex flex-row align-items-center">
-            <img src="https://img.icons8.com/fluent/96/000000/user-male-circle.png" width="40" />
+            <img src="https://img.icons8.com/fluent/96/000000/user-male-circle.png" alt= "image" width="40" />
             <div className="d-flex flex-column ml-2">
                 <span>sjored212</span>
                 <small className="text-muted seller">seller</small>
